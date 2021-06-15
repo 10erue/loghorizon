@@ -1,23 +1,29 @@
-export const BOILERPLATE = {};
+export const LOGHORIZON = {};
+
+// Define constants here, such as:
+LOGHORIZON.foobar = {
+  'bas': 'LOGHORIZON.bas',
+  'bar': 'LOGHORIZON.bar'
+};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ LOGHORIZON.abilities = {
+  "str": "LOGHORIZON.AbilityStr",
+  "dex": "LOGHORIZON.AbilityDex",
+  "con": "LOGHORIZON.AbilityCon",
+  "int": "LOGHORIZON.AbilityInt",
+  "wis": "LOGHORIZON.AbilityWis",
+  "cha": "LOGHORIZON.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+LOGHORIZON.abilityAbbreviations = {
+  "str": "LOGHORIZON.AbilityStrAbbr",
+  "dex": "LOGHORIZON.AbilityDexAbbr",
+  "con": "LOGHORIZON.AbilityConAbbr",
+  "int": "LOGHORIZON.AbilityIntAbbr",
+  "wis": "LOGHORIZON.AbilityWisAbbr",
+  "cha": "LOGHORIZON.AbilityChaAbbr"
 };
